@@ -83,6 +83,19 @@
   .store-badge:hover{ opacity:0.85; }
   .store-badge:focus-visible{ outline:3px solid var(--ink); outline-offset:2px; border-radius:4px; }
 
+  .tg-row{ display:flex; justify-content:center; margin-top:12px; }
+  .tg-link{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    color: var(--ink);
+    font-size:15px;
+  }
+  .tg-link img{ height:36px; width:auto; display:block; }
+  .tg-link:hover{ opacity:0.85; }
+  .tg-link:focus-visible{ outline:3px solid var(--ink); outline-offset:2px; border-radius:4px; }
+
   section{ padding: 40px 0; border-top: 1px solid var(--line); }
   section h2{ font-size:22px; margin: 0 0 20px; }
 
@@ -149,6 +162,12 @@
         </a>
         <a class="store-badge" href="https://play.google.com/store/apps/details?id=org.deutsch.verben.learn&pcampaignid=web_share">
           <img src="assets/google_badge.png" alt="Get it on Google Play">
+        </a>
+      </div>
+      <div class="tg-row">
+        <a class="tg-link" href="https://t.me/germanosaurus">
+          Join Easy German News on Telegram:
+          <img src="assets/tg_logo.png" alt="Telegram logo">
         </a>
       </div>
     </div>
